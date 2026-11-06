@@ -1,0 +1,321 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-06T09:29:37.989300+00:00",
+  "title": "Design System: PURE HEAD SPA by Anaïs",
+  "extensions": {
+    "colorMeta": {
+      "creme": {
+        "role": "neutral",
+        "displayName": "Beige crème",
+        "canonical": "#F4EBDD",
+        "tonalRamp": [
+          "#1A150E",
+          "#393227",
+          "#595146",
+          "#7B7367",
+          "#9F978A",
+          "#C5BCAF",
+          "#E0DAD0",
+          "#F2EEE7"
+        ]
+      },
+      "blanc": {
+        "role": "neutral",
+        "displayName": "Blanc pur",
+        "canonical": "#FFFFFF",
+        "tonalRamp": [
+          "#161616",
+          "#333333",
+          "#525252",
+          "#747474",
+          "#989898",
+          "#BEBEBE",
+          "#DBDBDB",
+          "#EEEEEE"
+        ]
+      },
+      "lin": {
+        "role": "neutral",
+        "displayName": "Lin sable",
+        "canonical": "#E9DCC6",
+        "tonalRamp": [
+          "#1C1509",
+          "#3B311F",
+          "#5C513E",
+          "#7E735F",
+          "#A39782",
+          "#C9BCA7",
+          "#E2DACB",
+          "#F4EEE3"
+        ]
+      },
+      "noyer": {
+        "role": "neutral",
+        "displayName": "Noyer",
+        "canonical": "#35261B",
+        "tonalRamp": [
+          "#1E130C",
+          "#3F2F24",
+          "#604F43",
+          "#827064",
+          "#A79487",
+          "#CDB9AC",
+          "#E6D8CE",
+          "#F6ECE5"
+        ]
+      },
+      "raphia": {
+        "role": "neutral",
+        "displayName": "Raphia",
+        "canonical": "#6A4F36",
+        "tonalRamp": [
+          "#221202",
+          "#452D14",
+          "#674C33",
+          "#8B6E54",
+          "#B09277",
+          "#D6B79B",
+          "#ECD6C3",
+          "#FBEBDE"
+        ]
+      },
+      "laiton": {
+        "role": "primary",
+        "displayName": "Laiton du halo",
+        "canonical": "#A87B3C",
+        "tonalRamp": [
+          "#231200",
+          "#472C00",
+          "#714902",
+          "#976B2A",
+          "#BD8F50",
+          "#E4B475",
+          "#F6D5AA",
+          "#FEEBD3"
+        ]
+      },
+      "laiton-text": {
+        "role": "primary",
+        "displayName": "Laiton de lecture",
+        "canonical": "#8E6422",
+        "tonalRamp": [
+          "#231200",
+          "#472D00",
+          "#704A02",
+          "#966B2A",
+          "#BC8F50",
+          "#E3B575",
+          "#F5D5AA",
+          "#FFEBD2"
+        ]
+      },
+      "laiton-ink": {
+        "role": "primary",
+        "displayName": "Laiton profond",
+        "canonical": "#75501C",
+        "tonalRamp": [
+          "#231100",
+          "#492C00",
+          "#6F4A15",
+          "#936C3A",
+          "#B8905D",
+          "#DFB582",
+          "#F3D5B2",
+          "#FFEBD4"
+        ]
+      },
+      "braise": {
+        "role": "secondary",
+        "displayName": "Braise",
+        "canonical": "#E0B073",
+        "tonalRamp": [
+          "#231200",
+          "#482C00",
+          "#714906",
+          "#976B2D",
+          "#BD8E52",
+          "#E4B477",
+          "#F6D5AB",
+          "#FFEBD4"
+        ]
+      },
+      "statut-ouvert": {
+        "role": "neutral",
+        "displayName": "Vert d'ouverture",
+        "canonical": "#5E8C4A",
+        "tonalRamp": [
+          "#12200B",
+          "#25400F",
+          "#3A5B22",
+          "#4C7338",
+          "#6C9657",
+          "#93BA83",
+          "#BDD8B0",
+          "#E5F0DF"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display-hero": {
+        "displayName": "Display hero",
+        "purpose": "Le mot « Pure » en italique géante, une fois par page."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Titres de section, un mot-clé en italique laiton."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Questions de FAQ et noms des avis."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Texte courant, 38 à 54 caractères par ligne."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Navigation, horaires, légendes en capitales espacées."
+      }
+    },
+    "shadows": [
+      {
+        "name": "arche-photo",
+        "value": "0 40px 60px -36px rgba(53,38,27,.6)",
+        "purpose": "Arche photo du hero."
+      },
+      {
+        "name": "tuile-carte",
+        "value": "0 30px 50px -34px rgba(53,38,27,.5)",
+        "purpose": "Galerie, avis, photos flottantes."
+      },
+      {
+        "name": "appel-flottant",
+        "value": "0 18px 30px -14px rgba(53,38,27,.7)",
+        "purpose": "Bouton « Appeler » mobile."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-expo-out",
+        "value": "cubic-bezier(.16,1,.3,1)",
+        "purpose": "Survols, menus, accordéon. Côté GSAP : expo.out pour les entrées."
+      },
+      {
+        "name": "ease-expo-in-out",
+        "value": "expo.inOut",
+        "purpose": "Rideaux et ouvertures d’arches (clip-path), 1,5 à 1,8 s."
+      },
+      {
+        "name": "scroll-lenis",
+        "value": "duration 1.15s, expo ease-out",
+        "purpose": "Défilement inertiel global."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "mobile",
+        "value": "540px"
+      },
+      {
+        "name": "desktop-pin",
+        "value": "900px"
+      },
+      {
+        "name": "short-height",
+        "value": "820px (hauteur)"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Bouton principal",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Appel à l’action, remplissage laiton en arche au survol.",
+      "html": "<button class=\"ds-btn\"><span>Prendre rendez-vous</span></button>",
+      "css": ".ds-btn{position:relative;overflow:hidden;isolation:isolate;display:inline-flex;align-items:center;gap:1rem;padding:1.15rem 2.1rem;border:0;border-radius:999px;background:#35261B;color:#F4EBDD;font:500 .8rem/1 Jost,Futura,sans-serif;letter-spacing:.2em;text-transform:uppercase;cursor:pointer;transition:color .5s cubic-bezier(.16,1,.3,1)}.ds-btn::before{content:'';position:absolute;inset:0;z-index:-1;background:#8E6422;border-radius:50% 50% 0 0/100% 100% 0 0;transform:translateY(102%);transition:transform .7s cubic-bezier(.16,1,.3,1),border-radius .7s cubic-bezier(.16,1,.3,1)}.ds-btn:hover::before,.ds-btn:focus-visible::before{transform:none;border-radius:0}.ds-btn:hover,.ds-btn:focus-visible{color:#fff}.ds-btn:focus-visible{outline:2px solid #A87B3C;outline-offset:4px}"
+    },
+    {
+      "name": "Bouton clair",
+      "kind": "button",
+      "refersTo": "button-light",
+      "description": "Variante pour fonds noyer.",
+      "html": "<button class=\"ds-btn\"><span>Appeler maintenant</span></button>",
+      "css": ".ds-btn{position:relative;overflow:hidden;isolation:isolate;display:inline-flex;align-items:center;gap:1rem;padding:1.15rem 2.1rem;border:0;border-radius:999px;background:#fff;color:#35261B;font:500 .8rem/1 Jost,Futura,sans-serif;letter-spacing:.2em;text-transform:uppercase;cursor:pointer;transition:color .5s cubic-bezier(.16,1,.3,1)}.ds-btn::before{content:'';position:absolute;inset:0;z-index:-1;background:#E0B073;border-radius:50% 50% 0 0/100% 100% 0 0;transform:translateY(102%);transition:transform .7s cubic-bezier(.16,1,.3,1),border-radius .7s cubic-bezier(.16,1,.3,1)}.ds-btn:hover::before,.ds-btn:focus-visible::before{transform:none;border-radius:0}.ds-btn:hover,.ds-btn:focus-visible{color:#35261B}.ds-btn:focus-visible{outline:2px solid #A87B3C;outline-offset:4px}"
+    },
+    {
+      "name": "Lien de navigation",
+      "kind": "nav",
+      "description": "Capitales espacées, trait laiton qui se dessine.",
+      "html": "<a class=\"ds-nav\" href=\"#\">Le rituel</a>",
+      "css": ".ds-nav{position:relative;display:inline-block;padding-block:.6rem;color:#35261B;text-decoration:none;font:500 .74rem/1 Jost,Futura,sans-serif;letter-spacing:.2em;text-transform:uppercase}.ds-nav::after{content:'';position:absolute;left:0;right:0;bottom:.15rem;height:1px;background:#A87B3C;transform:scaleX(0);transform-origin:left;transition:transform .6s cubic-bezier(.16,1,.3,1)}.ds-nav:hover::after,.ds-nav:focus-visible::after{transform:scaleX(1)}"
+    },
+    {
+      "name": "Carte d’avis",
+      "kind": "card",
+      "refersTo": "review-card",
+      "description": "Avis repris tel quel, guillemet laiton, nom en italique.",
+      "html": "<div class=\"ds-review\"><p>Un moment très agréable et apaisant.</p><span>Romane Rioual</span></div>",
+      "css": ".ds-review{width:300px;padding:2rem;border-radius:14px;background:#fff;box-shadow:0 30px 50px -34px rgba(53,38,27,.45)}.ds-review::before{content:'\\201C';display:block;height:2.5rem;color:#8E6422;font:italic 500 6rem/.6 'Bodoni Moda',Georgia,serif}.ds-review p{margin:0 0 1.2rem;color:#35261B;font:400 1.05rem/1.62 Jost,sans-serif}.ds-review span{color:#75501C;font:italic 500 1.5rem/1.1 'Bodoni Moda',Georgia,serif}"
+    },
+    {
+      "name": "Cadre en arche",
+      "kind": "custom",
+      "description": "Cadre signature de toutes les photos.",
+      "html": "<div class=\"ds-arch\"></div>",
+      "css": ".ds-arch{width:180px;aspect-ratio:4/5.3;border-radius:999px 999px 0 0;background:linear-gradient(#E9DCC6,#A87B3C);box-shadow:0 40px 60px -36px rgba(53,38,27,.6)}"
+    },
+    {
+      "name": "Pastille d’état",
+      "kind": "chip",
+      "description": "Ouvert ou fermé, calculé à l’heure de Paris.",
+      "html": "<p class=\"ds-status\"><i></i><span>Ouvert · jusqu’à 18h</span></p>",
+      "css": ".ds-status{display:inline-flex;align-items:center;gap:.7rem;margin:0;color:#6A4F36;font:500 .72rem/1.3 Jost,sans-serif;letter-spacing:.18em;text-transform:uppercase}.ds-status i{width:8px;height:8px;border-radius:50%;background:#5E8C4A}"
+    }
+  ],
+  "narrative": {
+    "northStar": "La cabine tamisée",
+    "overview": "Le site est la cabine de soin que l'on traverse : lumière crème à l'entrée, nuit ambrée au creux du soin, retour de la lumière avec le brushing. Matières du lieu : laiton, raphia, jute, bois, lin. L'italique de Bodoni Moda reprend la calligraphie du logo.",
+    "keyCharacteristics": [
+      "Crème et blanc pur en fonds, noyer en nuit de cabine, laiton en fil d’or",
+      "Fil rouge : l’arche à fils de laiton",
+      "Titres géants Bodoni Moda, texte Jost",
+      "Une mise en scène distincte par section",
+      "Photos petites cadrées en arches modestes"
+    ],
+    "rules": [
+      {
+        "name": "La règle du fil d’or",
+        "body": "Le laiton trace, il ne parle pas : pas de texte courant en #A87B3C.",
+        "section": "colors"
+      },
+      {
+        "name": "La règle de la nuit",
+        "body": "Le noyer n’occupe que les moments d’intimité.",
+        "section": "colors"
+      },
+      {
+        "name": "La règle de la calligraphie",
+        "body": "L’italique de Bodoni est réservé aux mots que le logo écrirait en script.",
+        "section": "typography"
+      },
+      {
+        "name": "La règle du sol",
+        "body": "Toute ombre a un décalage vertical et un rayon négatif.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do garder le crème et le blanc pur dominants",
+      "Do dessiner icônes et séparateurs en un trait laiton de 1,5px",
+      "Do proposer une version statique sous prefers-reduced-motion",
+      "Do tenir « Appeler » à un geste"
+    ],
+    "donts": [
+      "Don’t utiliser #A87B3C pour du texte courant",
+      "Don’t agrandir les photos au-delà de leur cadre",
+      "Don’t inventer prix, chiffres ou avis",
+      "Don’t poser de kicker au-dessus d’un titre"
+    ]
+  }
+}

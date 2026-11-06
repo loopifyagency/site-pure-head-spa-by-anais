@@ -1,0 +1,475 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>PURE HEAD SPA by Anaïs — Head spa et bien-être à Brest</title>
+<meta name="description" content="Head spa à Brest : un cocon chaleureux où Anaïs vous accueille pour le soin Pure Signature. Matelas chauffant, massage tout en douceur, brushing. Prenez rendez-vous au 06 32 88 86 11.">
+<meta name="theme-color" content="#F4EBDD">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="PURE HEAD SPA by Anaïs — Head spa à Brest">
+<meta property="og:description" content="Un cocon de bois, de raphia et de lumière chaude pour poser la tête. Soin Pure Signature, 420 rue Jurien de la Gravière, Brest.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preload" href="assets/fonts/bodoni-moda-italic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/jost.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/main.css">
+<script>
+  document.documentElement.classList.add('js');
+  setTimeout(function () { document.documentElement.classList.add('loader-timeout'); }, 7000);
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DaySpa",
+  "name": "PURE HEAD SPA by Anaïs",
+  "description": "Head spa et centre de bien-être à Brest : soin Pure Signature avec matelas chauffant, massage et brushing.",
+  "telephone": "+33632888611",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "420 Rue Jurien de la Gravière",
+    "postalCode": "29200",
+    "addressLocality": "Brest",
+    "addressCountry": "FR"
+  },
+  "hasMap": "https://maps.app.goo.gl/RbnXrLdD6wMqi9uH7",
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Thursday", "Friday"], "opens": "09:30", "closes": "18:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "10:00", "closes": "13:00" }
+  ]
+}
+</script>
+</head>
+<body>
+
+<a class="skip" href="#contenu">Aller au contenu</a>
+
+<!-- Chargeur -->
+<div class="loader" id="loader" aria-hidden="true">
+  <div class="loader__panel">
+    <svg class="loader__fan" data-fan viewBox="0 0 200 130" fill="none"></svg>
+    <p class="loader__word"><span class="loader__line">Pure</span></p>
+    <p class="loader__sub">Head Spa <i>by</i> Anaïs</p>
+    <p class="loader__count"><span id="loader-count">0</span><small>%</small></p>
+  </div>
+  <svg class="loader__curve" viewBox="0 0 100 12" preserveAspectRatio="none"><path d="M0 0H100V0C75 12 25 12 0 0Z"/></svg>
+</div>
+
+<div class="progress" aria-hidden="true"><i></i></div>
+<div class="cursor" aria-hidden="true"><span></span></div>
+
+<!-- Navigation -->
+<header class="nav" id="nav">
+  <a class="nav__logo" href="#hero" aria-label="PURE HEAD SPA by Anaïs — retour en haut">
+    <span class="nav__pure">Pure</span><span class="nav__head">Head Spa</span>
+  </a>
+  <nav class="nav__links" aria-label="Navigation principale">
+    <a href="#rituel">Le rituel</a>
+    <a href="#cocon">Le cocon</a>
+    <a href="#avis">Avis</a>
+    <a href="#acces">Nous trouver</a>
+  </nav>
+  <a class="btn btn--sm nav__cta" href="tel:+33632888611" data-magnetic><span>Prendre rendez-vous</span></a>
+  <button class="nav__burger" id="burger" type="button" aria-expanded="false" aria-controls="menu">
+    <span class="nav__bar"></span><span class="nav__bar"></span><span class="sr-only">Ouvrir le menu</span>
+  </button>
+</header>
+
+<div class="menu" id="menu" aria-hidden="true" inert>
+  <svg class="menu__fan" data-fan viewBox="0 0 200 130" fill="none" aria-hidden="true"></svg>
+  <nav class="menu__links" aria-label="Menu mobile">
+    <a href="#rituel"><span>Le rituel</span></a>
+    <a href="#cocon"><span>Le cocon</span></a>
+    <a href="#avis"><span>Avis</span></a>
+    <a href="#acces"><span>Nous trouver</span></a>
+  </nav>
+  <div class="menu__foot">
+    <a class="btn btn--light" href="tel:+33632888611"><span>Appeler le 06 32 88 86 11</span></a>
+    <p>420 rue Jurien de la Gravière<br>29200 Brest</p>
+  </div>
+</div>
+
+<main id="contenu">
+
+<!-- 1. HERO -->
+<section class="hero" id="hero" aria-labelledby="hero-title">
+  <svg class="hero__fan" data-fan viewBox="0 0 200 130" fill="none" aria-hidden="true"></svg>
+
+  <figure class="hero__arch arch" data-depth="14">
+    <img src="assets/img/halo.webp" width="609" height="609" fetchpriority="high"
+         alt="Une cliente allongée, les yeux fermés, la tête sous l’arceau doré du head spa, dans une lumière ambrée">
+  </figure>
+
+  <h1 class="hero__title" id="hero-title" data-depth="-8">
+    <span class="sr-only">PURE HEAD SPA by Anaïs, head spa à Brest</span>
+    <span class="hero__pure" aria-hidden="true">Pure</span>
+    <span class="hero__sub" aria-hidden="true"><b>Head Spa</b> <i>by</i> Anaïs <u>·</u> Brest</span>
+  </h1>
+
+  <div class="hero__copy" data-depth="6">
+    <p class="hero__tag">Poser la tête. Laisser tout le reste.</p>
+    <p class="hero__lede">À Brest, Anaïs vous accueille dans un cocon de bois, de raphia et de lumière chaude&nbsp;: matelas chauffant, massage tout en douceur, brushing pour finir.</p>
+    <div class="hero__actions">
+      <a class="btn" href="tel:+33632888611" data-magnetic><span>Prendre rendez-vous</span><small>06 32 88 86 11</small></a>
+      <a class="link" href="#rituel">Découvrir le soin</a>
+    </div>
+    <p class="status" data-status><i></i><span>Horaires du jour…</span></p>
+  </div>
+
+  <div class="hero__badge" aria-hidden="true">
+    <svg viewBox="0 0 160 160">
+      <defs><path id="badge-circle" d="M80 80m-62 0a62 62 0 1 1 124 0a62 62 0 1 1-124 0"/></defs>
+      <text><textPath href="#badge-circle" startOffset="0" textLength="386" lengthAdjust="spacing">Head spa · Brest · Lâcher-prise · </textPath></text>
+      <g class="hero__badge-sun" transform="translate(40 40)"><use href="#sun" width="80" height="80"/></g>
+    </svg>
+  </div>
+
+  <a class="hero__scroll" href="#manifeste" aria-label="Descendre vers la suite"><i></i></a>
+</section>
+
+<!-- 2. MARQUEE -->
+<div class="marquee-clip">
+<section class="marquee" aria-label="Mots-clés du soin">
+  <div class="marquee__row marquee__row--a" data-marquee="-1">
+    <div class="marquee__track">
+      <span>Détente</span><svg class="sep"><use href="#sun"/></svg><span>Cocooning</span><svg class="sep"><use href="#sun"/></svg><span>Lâcher-prise</span><svg class="sep"><use href="#sun"/></svg><span>Douceur</span><svg class="sep"><use href="#sun"/></svg><span>Chaleur</span><svg class="sep"><use href="#sun"/></svg>
+    </div>
+  </div>
+  <div class="marquee__row marquee__row--b" data-marquee="1">
+    <div class="marquee__track">
+      <span>Pure Signature</span><svg class="sep"><use href="#sun"/></svg><span>Matelas chauffant</span><svg class="sep"><use href="#sun"/></svg><span>Brushing</span><svg class="sep"><use href="#sun"/></svg><span>Brest</span><svg class="sep"><use href="#sun"/></svg><span>Massage doux</span><svg class="sep"><use href="#sun"/></svg>
+    </div>
+  </div>
+</section>
+</div>
+
+<!-- 3. MANIFESTE -->
+<section class="manifeste" id="manifeste" aria-label="Le head spa selon Anaïs">
+  <figure class="float float--arch arch" data-parallax="-18">
+    <img src="assets/img/lampe-detail.webp" width="606" height="588" loading="lazy"
+         alt="Luminaire soleil en raphia et miroir en fibres naturelles, accrochés au mur du salon">
+  </figure>
+  <figure class="float float--round" data-parallax="22">
+    <img src="assets/img/logo-detail.webp" width="606" height="600" loading="lazy"
+         alt="Détail du logo doré « Pure Head Spa by Anaïs » sur le bois du mur">
+  </figure>
+  <p class="manifeste__text" data-scrub-words>Le head spa, venu du Japon, prend la tête au sérieux&nbsp;: le cuir chevelu, la nuque, le visage, les cheveux, l’un après l’autre, sans se presser. Chez Anaïs, tout se passe au chaud, allongé, dans une lumière qui n’éblouit personne. On arrive avec le monde sur les épaules. On repart avec les cheveux doux et l’esprit léger.</p>
+</section>
+
+<!-- 4. RITUEL (section pinnée) -->
+<section class="ritual" id="rituel" aria-labelledby="ritual-title">
+  <div class="ritual__night" aria-hidden="true"></div>
+  <div class="ritual__stage">
+    <h2 class="ritual__title h2" id="ritual-title">Quatre temps pour <em>lâcher prise</em></h2>
+
+    <div class="ritual__acts">
+      <article class="act" data-act>
+        <div class="act__text">
+          <p class="act__name"><span>Le seuil</span></p>
+          <p class="act__body">On pousse la porte et quelque chose se défait. Les couleurs sont douces, les senteurs aussi, le calme est déjà là. Anaïs vous accueille comme on accueille chez soi, et tout est pensé pour préparer le lâcher-prise.</p>
+        </div>
+        <figure class="act__fig arch">
+          <img src="assets/img/logo-mur.webp" width="606" height="1080" loading="lazy" alt="Le logo doré « Pure Head Spa by Anaïs » sur le mur en bois du salon">
+        </figure>
+      </article>
+
+      <article class="act" data-act>
+        <div class="act__text">
+          <p class="act__name"><span>La chaleur</span></p>
+          <p class="act__body">On s’allonge. Le matelas chauffant enveloppe d’une chaleur lente, du début à la fin du soin. Le corps cède avant même que la tête s’en aperçoive.</p>
+        </div>
+        <figure class="act__fig arch">
+          <img src="assets/img/cabine.webp" width="672" height="894" loading="lazy" alt="La cabine de soin : lit, chariot en laiton, rideaux, fauteuil blanc et tapis de jute rond">
+        </figure>
+      </article>
+
+      <article class="act" data-act>
+        <div class="act__text">
+          <p class="act__name"><span>Les mains</span></p>
+          <p class="act__body">La tête repose sur le matelas pendant tout le soin&nbsp;: aucune tension dans la nuque. Les mains d’Anaïs massent avec douceur, et quand il fait chaud, de petits accessoires rafraîchissants se posent sur le visage.</p>
+        </div>
+        <figure class="act__fig arch">
+          <img src="assets/img/cabine-nuit.webp" width="585" height="732" loading="lazy" alt="La cabine dans la lumière du soir, le lit de soin prêt, le logo doré au mur">
+        </figure>
+      </article>
+
+      <article class="act" data-act>
+        <div class="act__text">
+          <p class="act__name"><span>Le retour</span></p>
+          <p class="act__body">Le brushing clôt le soin&nbsp;: cheveux doux, cheveux brillants, prêts pour la suite de la journée. Le calme, lui, vous suit encore un peu.</p>
+        </div>
+        <figure class="act__fig arch">
+          <img src="assets/img/lampe.webp" width="606" height="1080" loading="lazy" alt="Console en bois, luminaire soleil en raphia et miroir en fibres naturelles">
+        </figure>
+      </article>
+    </div>
+
+    <div class="ritual__thread" aria-hidden="true"><i></i></div>
+  </div>
+</section>
+
+<!-- 5. ATTENTIONS (défilement horizontal) -->
+<section class="rail" id="attentions" aria-labelledby="rail-title">
+  <div class="rail__pin">
+    <svg class="rail__thread" aria-hidden="true" preserveAspectRatio="none"><path d=""/></svg>
+    <div class="rail__track">
+
+      <div class="panel panel--intro">
+        <h2 class="h2" id="rail-title">Les petites attentions <em>qui font tout</em></h2>
+        <p class="panel__hint">Faites défiler <svg viewBox="0 0 40 12" aria-hidden="true"><path d="M0 6h38M32 1l6 5-6 5"/></svg></p>
+      </div>
+
+      <div class="panel panel--word panel--up">
+        <svg class="icon" viewBox="0 0 64 64" aria-hidden="true"><path pathLength="1" d="M14 56V28a18 18 0 0 1 36 0v28"/><path pathLength="1" d="M8 56h48"/><path pathLength="1" d="M32 14v42"/><path pathLength="1" d="M27 36v4"/></svg>
+        <p class="panel__word"><span>Seuil</span></p>
+        <p class="panel__text">Couleurs, senteurs, calme&nbsp;: on se sent bien dès l’entrée dans le salon.</p>
+      </div>
+
+      <figure class="panel panel--photo panel--down arch">
+        <img src="assets/img/fauteuil.webp" width="384" height="486" loading="lazy" alt="Fauteuil blanc bouclé sur pied métallique, devant un tapis de jute">
+      </figure>
+
+      <div class="panel panel--word panel--down">
+        <svg class="icon" viewBox="0 0 64 64" aria-hidden="true"><path pathLength="1" d="M8 48h48v6H8z"/><path pathLength="1" d="M20 38c-4-4 4-7 0-11s4-7 0-11"/><path pathLength="1" d="M32 38c-4-4 4-7 0-11s4-7 0-11"/><path pathLength="1" d="M44 38c-4-4 4-7 0-11s4-7 0-11"/></svg>
+        <p class="panel__word"><span>Chaleur</span></p>
+        <p class="panel__text">Le matelas chauffant procure une sensation de chaleur enveloppante.</p>
+      </div>
+
+      <div class="panel panel--word panel--up">
+        <svg class="icon" viewBox="0 0 64 64" aria-hidden="true"><path pathLength="1" d="M32 12a9 9 0 1 1 0 18a9 9 0 0 1 0-18z"/><path pathLength="1" d="M8 46c8-7 40-7 48 0v8H8z"/><path pathLength="1" d="M17 22c-3 2-3 6 0 8"/><path pathLength="1" d="M47 22c3 2 3 6 0 8"/></svg>
+        <p class="panel__word"><span>Nuque</span></p>
+        <p class="panel__text">La tête reste posée sur le matelas tout au long du soin. Pas de tension cervicale.</p>
+      </div>
+
+      <figure class="panel panel--photo panel--photo-sm panel--up arch">
+        <img src="assets/img/chariot.webp" width="312" height="348" loading="lazy" alt="Chariot de soin en laiton avec produits et paniers, près du lit de soin">
+      </figure>
+
+      <div class="panel panel--word panel--down">
+        <svg class="icon" viewBox="0 0 64 64" aria-hidden="true"><path pathLength="1" d="M32 8c8 11 14 18 14 27a14 14 0 0 1-28 0c0-9 6-16 14-27z"/><path pathLength="1" d="M24 38a8 8 0 0 0 8 8"/></svg>
+        <p class="panel__word"><span>Fraîcheur</span></p>
+        <p class="panel__text">Des accessoires rafraîchissants sur le visage, précieux quand les chaleurs arrivent.</p>
+      </div>
+
+      <div class="panel panel--word panel--up">
+        <svg class="icon" viewBox="0 0 64 64" aria-hidden="true"><path pathLength="1" d="M20 10h24a4 4 0 0 1 4 4v16a4 4 0 0 1-4 4H20a4 4 0 0 1-4-4V14a4 4 0 0 1 4-4z"/><path pathLength="1" d="M32 34v22"/><path pathLength="1" d="M24 16v10"/><path pathLength="1" d="M32 16v10"/><path pathLength="1" d="M40 16v10"/></svg>
+        <p class="panel__word"><span>Brushing</span></p>
+        <p class="panel__text">Pour prolonger l’instant et poursuivre la journée avec de beaux cheveux.</p>
+      </div>
+
+      <div class="panel panel--word panel--down">
+        <svg class="icon" viewBox="0 0 64 64" aria-hidden="true"><path pathLength="1" d="M8 22c10-10 14 10 24 0s14 10 24 0"/><path pathLength="1" d="M8 34c10-10 14 10 24 0s14 10 24 0"/><path pathLength="1" d="M8 46c10-10 14 10 24 0s14 10 24 0"/></svg>
+        <p class="panel__word"><span>Douceur</span></p>
+        <p class="panel__text">Une cliente l’a constaté dix jours après son soin&nbsp;: des cheveux plus doux, qui regraissent moins vite.</p>
+      </div>
+
+      <div class="panel panel--end">
+        <p class="panel__end">À vous de <em>poser la tête.</em></p>
+        <a class="btn" href="tel:+33632888611" data-magnetic><span>Prendre rendez-vous</span><small>06 32 88 86 11</small></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 6. CHIFFRES -->
+<section class="figures" aria-labelledby="figures-title">
+  <div class="figures__arch" aria-hidden="true"></div>
+  <h2 class="sr-only" id="figures-title">Le Pure Signature en trois chiffres</h2>
+  <p class="figures__line">
+    <span class="figures__num"><b data-count="2">2</b><i>h</i></span> de Pure Signature,
+    <span class="figures__num"><b data-count="4">4</b></span> temps pour lâcher prise, et
+    <span class="figures__num"><b data-count="10">10</b></span> jours plus tard, des cheveux encore plus doux.
+  </p>
+  <p class="figures__note">Durée et effet rapportés par des clientes dans leurs avis.</p>
+</section>
+
+<!-- 7. GALERIE -->
+<section class="gallery" id="cocon" aria-labelledby="gallery-title">
+  <div class="gallery__head">
+    <h2 class="h2" id="gallery-title" data-split>Un cocon, <em>vu de l’intérieur</em></h2>
+    <p class="gallery__intro">Bois clair, raphia, tapis de jute, laiton qui accroche la lumière. Rien n’est là par hasard, rien n’est là pour impressionner : tout est là pour apaiser.</p>
+  </div>
+  <div class="gallery__cols">
+    <div class="gcol gcol--1" data-speed="0">
+      <figure class="tile tile--arch" data-tilt><img src="assets/img/cabine.webp" width="672" height="894" loading="lazy" alt="La cabine de soin : lit, chariot en laiton, rideaux, fauteuil blanc et tapis de jute"><figcaption>La cabine</figcaption></figure>
+      <figure class="tile tile--sq" data-tilt><img src="assets/img/chariot.webp" width="312" height="348" loading="lazy" alt="Chariot de soin en laiton avec produits et paniers"><figcaption>Le chariot de soin</figcaption></figure>
+    </div>
+    <div class="gcol gcol--2" data-speed="1">
+      <figure class="tile tile--sq" data-tilt><img src="assets/img/lampe-detail.webp" width="606" height="588" loading="lazy" alt="Luminaire soleil en raphia et miroir en fibres naturelles"><figcaption>Le soleil de raphia</figcaption></figure>
+      <figure class="tile tile--tall" data-tilt><img src="assets/img/logo-mur.webp" width="606" height="1080" loading="lazy" alt="Le logo doré Pure Head Spa by Anaïs sur le mur en bois"><figcaption>Le mur doré</figcaption></figure>
+    </div>
+    <div class="gcol gcol--3" data-speed="2">
+      <figure class="tile tile--tall" data-tilt><img src="assets/img/halo.webp" width="609" height="609" loading="lazy" alt="Cliente allongée sous l’arceau doré du head spa" style="object-position:30% 50%"><figcaption>L’arceau doré</figcaption></figure>
+      <figure class="tile tile--arch" data-tilt><img src="assets/img/fauteuil.webp" width="384" height="486" loading="lazy" alt="Fauteuil blanc bouclé devant un tapis de jute"><figcaption>Le fauteuil</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- Séparateur tresse -->
+<div class="braid" aria-hidden="true"><svg preserveAspectRatio="none"><path class="braid__a" d=""/><path class="braid__b" d=""/></svg></div>
+
+<!-- 8. AVIS -->
+<section class="reviews" id="avis" aria-labelledby="reviews-title">
+  <div class="reviews__head">
+    <h2 class="h2" id="reviews-title" data-split>Leurs mots, <em>pas les nôtres</em></h2>
+    <p class="reviews__intro">Avis de clients, reproduits tels quels.</p>
+  </div>
+
+  <div class="reviews__scroller" id="reviews-scroller" tabindex="0" role="region" aria-label="Avis clients, faire défiler horizontalement">
+    <ul class="reviews__list">
+      <li class="review" data-tilt>
+        <blockquote>
+          <p>Un moment très agréable et apaisant. AnaÏs m'a accueillie dans une ambiance cocooning du début à la fin. Petit + pour les accessoires raffraichissants sur le visage surtout avec les chaleurs de ces derniers jours. ☀️<br>J'ai adoré cette expérience !</p>
+        </blockquote>
+        <p class="review__who">Romane Rioual</p>
+      </li>
+      <li class="review review--long" data-tilt>
+        <blockquote>
+          <p>Très belle expérience. Dès l’entrée dans le salon d’Anaïs, on se sent bien. Un vrai cocon. Anaïs vous accueille chaleureusement dans une atmosphère réconfortante (couleurs, senteurs, calme …). Tout est pensé pour vous préparer au lâcher prise.<br>Le matelas chauffant vous procure une sensation de chaleur enveloppante.<br>Anaïs vous masse avec douceur. La tête repose sur le matelas tout au long du soin (pas de tension cervicale).<br>Tout le corps est détendu. Vos cheveux sont doux et brillants. Un pur bonheur.<br>Bien être pour la tête, le corps et l’esprit 😉<br>Je ne connaissais pas le concept. Soin reçu en cadeau et c’est une très belle découverte.</p>
+        </blockquote>
+        <p class="review__who">Caroline MSG</p>
+      </li>
+      <li class="review" data-tilt>
+        <blockquote>
+          <p>Moment suspendu avec Anaïs, après un accouchement dure , moment de détend avec le pure signature. 2h de pure détente et de pure plaisir, à refaire avec plaisir<br>Anaïs est très douce, à l’écoute.<br>Merci Anaïs 🙏 …</p>
+        </blockquote>
+        <p class="review__who">Lenaig Lansonneur</p>
+      </li>
+      <li class="review" data-tilt>
+        <blockquote>
+          <p>Un pur bonheur !!! Détente totale, un endroit coocooning on s'y sent vraiment bien. Anais est très délicate et ses massages sont très doux<br>C'est une personne très agréable on passe un excellent moment merci !<br>Je reviendrais avec grand plaisir</p>
+        </blockquote>
+        <p class="review__who">Vcs</p>
+      </li>
+      <li class="review review--long" data-tilt>
+        <blockquote>
+          <p>Bien-être et détente sont au coeur des soins proposés par Anaïs ! Le soin pure signature est vraiment agréable et parfait pour prolonger au maximum cet instant de bonheur. Enfin, le brushing nous permet de poursuivre la journée tout en restant pimpante, ce qui n'est pas négligeable !</p>
+          <p>Au delà de ça, cela fait maintenant 10 jours que j'ai réalisé le soin et l'effet est clairement notable sur mes cheveux : ils sont plus doux et regraissent moins vite qu'avant.</p>
+          <p>Je ne peux que recommander !<br>Merci Anaïs !</p>
+        </blockquote>
+        <p class="review__who">Laurina Kérébel</p>
+      </li>
+    </ul>
+  </div>
+
+  <div class="reviews__ctrl">
+    <div class="reviews__bar" aria-hidden="true"><i></i></div>
+    <div class="reviews__btns">
+      <button type="button" id="rev-prev" aria-label="Avis précédent"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12H4M10 6l-6 6 6 6"/></svg></button>
+      <button type="button" id="rev-next" aria-label="Avis suivant"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg></button>
+    </div>
+  </div>
+</section>
+
+<!-- 9. FAQ -->
+<section class="faq" aria-labelledby="faq-title">
+  <h2 class="h2" id="faq-title" data-split>Avant de <em>poser la tête</em></h2>
+  <div class="faq__list">
+    <div class="qa">
+      <h3><button type="button" aria-expanded="false" aria-controls="qa-1" id="qb-1"><span>C’est quoi, un head spa&nbsp;?</span><i aria-hidden="true"></i></button></h3>
+      <div class="qa__panel" id="qa-1" role="region" aria-labelledby="qb-1"><div><p>Un soin venu du Japon qui prend la tête au sérieux&nbsp;: cuir chevelu, cheveux, nuque, visage, le tout dans la lenteur. Chez Anaïs, il se vit allongé, au chaud, avec un massage tout en douceur et un brushing pour finir.</p></div></div>
+    </div>
+    <div class="qa">
+      <h3><button type="button" aria-expanded="false" aria-controls="qa-2" id="qb-2"><span>Combien de temps dure le Pure Signature&nbsp;?</span><i aria-hidden="true"></i></button></h3>
+      <div class="qa__panel" id="qa-2" role="region" aria-labelledby="qb-2"><div><p>Comptez environ deux heures, c’est ce que racontent les clientes. Le mieux est de ne rien prévoir juste après, ou presque. Pour confirmer la durée et les créneaux, un appel suffit.</p></div></div>
+    </div>
+    <div class="qa">
+      <h3><button type="button" aria-expanded="false" aria-controls="qa-3" id="qb-3"><span>Comment prendre rendez-vous&nbsp;?</span><i aria-hidden="true"></i></button></h3>
+      <div class="qa__panel" id="qa-3" role="region" aria-labelledby="qb-3"><div><p>Par téléphone au <a href="tel:+33632888611">06 32 88 86 11</a>, ou par <a href="sms:+33632888611">SMS</a>. Les horaires peuvent être modifiés&nbsp;: n’hésitez pas à les confirmer.</p></div></div>
+    </div>
+    <div class="qa">
+      <h3><button type="button" aria-expanded="false" aria-controls="qa-4" id="qb-4"><span>Peut-on offrir un soin&nbsp;?</span><i aria-hidden="true"></i></button></h3>
+      <div class="qa__panel" id="qa-4" role="region" aria-labelledby="qb-4"><div><p>Une cliente a découvert le concept en recevant son soin en cadeau, et parle d’une très belle découverte. Pour offrir un moment, parlez-en directement à Anaïs.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- 10. APPEL À L'ACTION -->
+<section class="cta" id="rdv" aria-labelledby="cta-title">
+  <div class="cta__iris" aria-hidden="true"></div>
+  <svg class="cta__fan" data-fan viewBox="0 0 200 130" fill="none" aria-hidden="true"></svg>
+  <div class="cta__inner">
+    <h2 class="cta__title" id="cta-title" data-split>Prenez un moment <em>pour vous.</em></h2>
+    <a class="cta__phone" href="tel:+33632888611" data-cursor="Appeler" aria-label="Appeler le 06 32 88 86 11">06 32 88 86 11</a>
+    <div class="cta__actions">
+      <a class="btn btn--light" href="tel:+33632888611" data-magnetic><span>Appeler maintenant</span></a>
+      <a class="btn btn--ghost" href="sms:+33632888611" data-magnetic><span>Envoyer un SMS</span></a>
+    </div>
+    <p class="status status--dark" data-status><i></i><span>Horaires du jour…</span></p>
+  </div>
+</section>
+
+<!-- 11. NOUS TROUVER -->
+<section class="find" id="acces" aria-labelledby="find-title">
+  <div class="find__grid">
+    <div class="find__info">
+      <h2 class="h2" id="find-title" data-split>Nous <em>trouver</em></h2>
+      <address class="find__addr">
+        <p>420 rue Jurien de la Gravière<br>29200 Brest</p>
+        <p><a class="link" href="tel:+33632888611">06 32 88 86 11</a></p>
+      </address>
+      <table class="hours">
+        <caption class="sr-only">Horaires d’ouverture</caption>
+        <tbody>
+          <tr data-day="1"><th scope="row">Lundi</th><td>9h30 – 18h</td></tr>
+          <tr data-day="2"><th scope="row">Mardi</th><td>9h30 – 18h</td></tr>
+          <tr data-day="3"><th scope="row">Mercredi</th><td>Nous contacter</td></tr>
+          <tr data-day="4"><th scope="row">Jeudi</th><td>9h30 – 18h</td></tr>
+          <tr data-day="5"><th scope="row">Vendredi</th><td>9h30 – 18h</td></tr>
+          <tr data-day="6"><th scope="row">Samedi</th><td>10h – 13h</td></tr>
+          <tr data-day="0"><th scope="row">Dimanche</th><td>Nous contacter</td></tr>
+        </tbody>
+      </table>
+      <p class="find__note">Les horaires peuvent être modifiés.</p>
+      <a class="btn" href="https://maps.app.goo.gl/RbnXrLdD6wMqi9uH7" target="_blank" rel="noopener noreferrer" data-magnetic><span>Itinéraire sur Google Maps</span></a>
+    </div>
+    <div class="find__map">
+      <div class="mapframe arch">
+        <iframe title="Carte Google Maps : PURE HEAD SPA by Anaïs, 420 rue Jurien de la Gravière, Brest" loading="lazy" referrerpolicy="no-referrer-when-downgrade" tabindex="-1"
+          src="https://www.google.com/maps?q=420+Rue+Jurien+de+la+Gravi%C3%A8re,+29200+Brest&amp;hl=fr&amp;z=16&amp;output=embed"></iframe>
+        <a class="mapframe__link" href="https://maps.app.goo.gl/RbnXrLdD6wMqi9uH7" target="_blank" rel="noopener noreferrer" aria-label="Ouvrir la carte dans Google Maps (nouvel onglet)"><span>Ouvrir dans Google Maps ↗</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- 12. PIED DE PAGE -->
+<footer class="foot">
+  <div class="foot__top">
+    <nav class="foot__nav" aria-label="Pied de page">
+      <a class="link link--light" href="#rituel">Le rituel</a>
+      <a class="link link--light" href="#cocon">Le cocon</a>
+      <a class="link link--light" href="#avis">Avis</a>
+      <a class="link link--light" href="#acces">Nous trouver</a>
+      <a class="link link--light" href="https://maps.app.goo.gl/RbnXrLdD6wMqi9uH7" target="_blank" rel="noopener noreferrer">Google Maps</a>
+    </nav>
+    <p class="foot__addr">420 rue Jurien de la Gravière, 29200 Brest<br><a class="link link--light" href="tel:+33632888611">06 32 88 86 11</a></p>
+    <a class="foot__top-btn" href="#hero" aria-label="Remonter en haut de la page"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20V4M6 10l6-6 6 6"/></svg></a>
+  </div>
+  <p class="foot__word" aria-hidden="true"><span class="foot__a">Pure</span> <span class="foot__b">Head Spa</span></p>
+  <p class="foot__legal">© 2026 PURE HEAD SPA by Anaïs · Brest</p>
+</footer>
+
+<a class="float-call" id="float-call" href="tel:+33632888611" aria-label="Appeler PURE HEAD SPA by Anaïs au 06 32 88 86 11">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg>
+  <span>Appeler</span>
+</a>
+
+<!-- Symboles -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="sun" viewBox="0 0 80 80">
+    <g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round">
+      <circle cx="40" cy="40" r="9"/>
+      <path d="M40 4v13M40 63v13M4 40h13M63 40h13M14.5 14.5l9 9M56.5 56.5l9 9M65.5 14.5l-9 9M23.5 56.5l-9 9M22 7l4.5 11.5M53.5 61.5L58 73M7 22l11.5 4.5M61.5 53.5L73 58M58 7l-4.5 11.5M26.5 61.5L22 73M73 22l-11.5 4.5M18.5 53.5L7 58"/>
+    </g>
+  </symbol>
+</svg>
+
+<script src="assets/vendor/gsap.min.js"></script>
+<script src="assets/vendor/ScrollTrigger.min.js"></script>
+<script src="assets/vendor/lenis.min.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
